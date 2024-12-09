@@ -1,0 +1,3 @@
+Bayesian Score changes during local search: -440669.22905314964
+ Local Search converged to Local Optima
+This is the total run time after local search: 14899.134365558624

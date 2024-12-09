@@ -1,0 +1,93 @@
+
+#############################################################################
+large - 
+wihtout episodes
+      for 5500
+      2639 sec -leaderboard 5023 
+
+      for 7000
+      This is the total run time: 4583.863013267517  5026---can be increaed to 5300?
+      
+      
+with episode 
+      3000 iter
+      4980 score
+
+suffled data - 2000 - below baseline
+ordered data - 2000 -4850
+ordered data - 2000 -4950
+ordered data - 2000 -5032
+ordered data - 2000 -5008                           -900  sec
+sampled data constant lr [0.001 (0.95) 3000] -5177  -1494 sec
+sampled data constant lr [0.001 (0.95) 3000] -5174  -1461 sec
+sampled data constant lr [0.001 (0.95) 6000] -5184  -2432 sec
+
+
+try partial pass? as small imporoved in that case
+6000 2538 0.002 5186
+6000 2469 0.002 5176
+2000 1073 0.002 5175
+
+Constant Learning Rate and Partial Pass Combination
+            20000 - 3hr 5178
+            0.002 0.7 his
+
+
+#############################################################################
+Medium 
+0.77
+2500
+only that state, mean of Q values
+            --- Processing Episode 298 ---
+            --- Processing Episode 299 ---
+            This is the total run time: 2517.2349951267242
+            189 -  this was with average..pretty good
+
+0.77
+2500
+max of Q-values   
+                  3635 sec
+                  191 score (with random exploaration strategy)
+
+ABOVE IS THE BEST ONE I AM SUBMITTING
+
+#############################################################################
+small 
+      0.77
+      1000
+      33.5 score
+
+
+      FINAL SUBMISSION
+      0.6
+2000
+      33.55 score
+      This is the total run time: 384.4425585269928
+
+      Shuffle
+      0.75
+      1000
+      score --  couldnt do better than baseline only so bekar
+      runtime 
+
+      constant lr 0.002
+      0.85 size history iterated many times
+      score - 33.58
+
+      lr dynamic
+      0.90 size history iterated many times
+      score -33.54 
+
+      constanr lr 0.02
+      0.90 size history iterated many times
+      score - 33.53
+
+      constant lr 0.001
+      0.95 size history iterated many times
+      score - 33.73
+3000
+      constant lr 0.001
+      0.98 size history iterated many times
+      score - 33.73
+      
+      SAVE ABOVE AS FINAL SUBMISSION

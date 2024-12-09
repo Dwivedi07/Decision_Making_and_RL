@@ -1,0 +1,18 @@
+large - 
+5500
+2639 sec -leaderboard 5023 
+
+7000
+This is the total run time: 4583.863013267517
+
+
+Medium 
+--- Processing Episode 298 ---
+--- Processing Episode 299 ---
+This is the total run time: 2517.2349951267242
+ 189 -  this was with average
+ check out with maximum???
+
+small 
+
+      sec - leaderboard 33 sec
